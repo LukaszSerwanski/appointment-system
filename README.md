@@ -29,9 +29,9 @@ Wprowadź nazwę bazy danych jako appointment-system.
 Wybierz kodowanie znaków utf8_general_ci i kliknij "Create" (Utwórz).
 Przejdź do sekcji "Import": Po utworzeniu bazy danych, kliknij jej nazwę w menu po lewej stronie, a następnie wybierz zakładkę "Import" w górnym menu.
 
-Wskaż plik SQL do importu.
+Wskaż plik SQL do importu. Plik znajduje się w folderze 'database' --> appointment_system.sql
 
-Kliknij przycisk "Choose File" (Wybierz plik) i wybierz plik bazy danych, np. appointment-system.sql, znajdujący się na Twoim komputerze.
+Kliknij przycisk "Choose File" (Wybierz plik) i wybierz plik 'appointment-system.sql'.
 Rozpocznij import.
 
 Po wybraniu pliku upewnij się, że opcja "Format" jest ustawiona na SQL.
