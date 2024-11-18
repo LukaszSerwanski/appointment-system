@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Appointment extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'name', 
+        'email', 
+        'phone', 
+        'address', 
+        'city', 
+        'postal_code', 
+        'service_type', 
+        'preferred_date', 
+        'photo_path', 
+        'ticket_number',
+    ];
+}

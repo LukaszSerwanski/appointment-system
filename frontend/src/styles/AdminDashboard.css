@@ -1,0 +1,23 @@
+.admin-dashboard-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.admin-dashboard-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard-container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard-container .fc {
+    max-width: 100%; /* Kalendarz dostosowuje się do rozmiaru ekranu */
+    margin: 0 auto;
+}

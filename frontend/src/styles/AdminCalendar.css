@@ -1,0 +1,108 @@
+/* Stylizacja głównego kontenera */
+.calendar-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówek kalendarza */
+.calendar-container h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Stylizacja FullCalendar */
+.fc {
+    font-family: Arial, sans-serif;
+}
+
+/* Dostosowanie komórek kalendarza */
+.fc-daygrid-day {
+    border: 1px solid #ddd;
+}
+
+.fc-day-today {
+    background-color: #f0f8ff; /* Lekki niebieski dla dzisiejszego dnia */
+}
+
+.fc-day:hover {
+    background-color: #e9ecef; /* Bootstrap hover effect */
+    cursor: pointer;
+}
+
+/* Lista zadań */
+.task-list {
+    margin-top: 20px;
+}
+
+.task-list h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-list ul {
+    padding: 0;
+}
+
+.task-list li {
+    list-style: none;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-list li:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+    .calendar-container {
+        padding: 15px;
+    }
+
+    .calendar-container h1 {
+        font-size: 22px;
+    }
+
+    .task-list h2 {
+        font-size: 20px;
+    }
+}
+/* Komórki kalendarza */
+.fc-daygrid-day {
+    vertical-align: top; /* Wyrównanie tekstu do góry */
+    overflow: hidden; /* Ukryj nadmiar tekstu */
+}
+
+/* Kontener wydarzeń w komórkach */
+.fc-daygrid-event {
+    white-space: nowrap; /* Zapobiega łamaniu wierszy */
+    overflow: hidden; /* Ukryj nadmiar tekstu */
+    text-overflow: ellipsis; /* Dodaj "..." dla zbyt długich tekstów */
+    max-width: 100%; /* Maksymalna szerokość wydarzenia */
+    display: block;
+}
+
+/* Zwiększenie wysokości komórek, jeśli potrzeba */
+.fc-daygrid-day-frame {
+    height: auto;
+    min-height: 80px; /* Minimalna wysokość dla większych wydarzeń */
+}
+
+/* Dostosowanie stylu nagłówków i dni */
+.fc-daygrid-day-number {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
