@@ -18,6 +18,8 @@ takich jak montaż okien i drzwi.
 
 Uruchom XAMPP, włącz moduł Apache i MySQL.
 
+Utwórz folder o nazwie 'appointment-system' w folderze htdocs znajdującym się w głownym folderze Xampp.
+
 Otwórz phpMyAdmin: W przeglądarce internetowej przejdź pod adres http://localhost/phpmyadmin.
 
 Utwórz nową bazę danych:
@@ -41,7 +43,6 @@ Testowanie bazy danych:
 Przejdź do zakładki "Structure", aby upewnić się, że tabele zostały zaimportowane.
 Możesz także przeglądać dane w zakładce "Browse" (Przeglądaj) dla każdej tabeli.
 
-Folder 'appointment-system' wklej do folderu htdocs. Folder htdocs jest zlokalizowany w głównym folderze Xamppa.
 
 	4. Kroki instalacji i uruchomienia projektu:
 
